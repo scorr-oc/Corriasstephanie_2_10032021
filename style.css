@@ -1,0 +1,275 @@
+#bloc-page
+{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+} 
+
+nav ul 
+{
+    display: flex;
+    list-style-type: none;
+    font-size: 1em;    
+}
+
+nav ul li
+{
+    margin: 0px 50px 0px 0px;
+}
+
+nav ul li a
+{
+    text-decoration: none; 
+    padding-top: 10px;
+}
+
+nav ul li a .hbgt:hover
+{
+    border-top: 2px solid #0065fc;
+    
+}
+
+.hbgt
+{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+}
+
+.activ
+{    
+        color:#7b7e80;  
+}
+
+.inscription
+{
+    color: #0065fc;
+    font-weight: bold;
+}
+
+#titre
+{
+    margin-top: -1em; 
+    font-size: 0.9em;
+}
+
+form
+{
+    display: flex;
+    margin-top: 2em;
+}
+label
+{
+    background-color: #F2F2F2;
+    padding: 15px 15px 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.local
+{
+    padding: 15px 15px 15px;
+    width: 210px;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.recherche
+{
+    padding: 15px 15px 15px;
+    width: 100px;
+    background-color: #0065fc;
+    border-color: #F2F2F2;
+    color: #ffff;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#filter
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#filter p
+{
+    padding: 15px 15px 15px;
+}
+
+#filter ul
+{
+    display: flex;
+    list-style-type: none;
+ 
+}
+
+#filter ul li
+{
+    margin-right: 40px;
+    border: 2px #F2F2F2 solid;
+    width: auto;
+    padding-right: 10px;
+    border-radius: 30px 30px 30px 20px;
+   
+}
+
+#filter ul li:hover
+{
+    background-color: #F2F2F2;
+}
+
+
+#filter ul li i   
+{
+    background-color: #DEEBFF;
+    padding: 15px 15px 15px;
+    border-radius: 70%;
+}
+
+#recherche p i
+{
+    padding-right: 10px;
+}
+
+h3
+{
+    margin-left: 20px;
+}
+#marseille
+{
+    background-color: #F2F2F2;
+    width: 800px;
+    padding-right: 15px;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logements
+{
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: -30px;
+
+}
+
+.logements figure
+{
+    margin-right: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 21px #b8b4b4;
+    padding: 5px 5px 0px 5px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.logements figure a img
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+ 
+.logements figure figcaption
+{
+    font-weight: bold;
+}
+
+.logements figure p
+{
+    margin-top: 0em;
+    font-size: 0.8em;
+}
+
+.logements figure ul
+{
+    display: flex;
+    list-style-type: none;
+    margin-left: -40px; 
+    margin-top: 0em;   
+}
+
+.logements figure ul li i
+{
+ 
+    font-size: 0.8em;
+    display: flex;
+    margin-top: -0.5em;  
+}
+
+.inactive
+{
+    color: #F2F2F2;
+}
+#marseille p a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.graph
+{
+    display: flex;
+    justify-content: space-between;
+}
+#plus-populaires figure a img
+{
+    width: 110px;
+    height: 110px;
+}
+
+#plus-populaires figure figcaption
+{
+    font-weight: bold;
+}
+
+#plus-populaires figure p
+{
+    margin-top: 0em;
+    font-size: 0.8em;
+}
+
+#plus-populaires figure ul
+{
+    display: flex;
+    list-style-type: none;
+    margin-top: 0em;
+    margin-left: -40px;
+}
+
+#plus-populaires figure ul li
+{
+    font-size: 0.8em;
+    display: flex;
+    margin-top: -0.5em;  
+}
+
+#populaire
+{
+    background-color: #F2F2F2;
+    width: 400px;
+    border-radius: 20px 20px 20px;
+}
+
+#hebergement
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#plus-populaires figure
+{
+    width: 320px ;
+    background-color: white;
+}
