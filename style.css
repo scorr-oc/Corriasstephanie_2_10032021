@@ -128,6 +128,7 @@ label
 #filter ul li i   
 {
     background-color: #DEEBFF;
+    color: #0065fc;
     padding: 15px 15px 15px;
     border-radius: 70%;
 }
@@ -135,11 +136,7 @@ label
 #recherche p i
 {
     padding-right: 10px;
-}
-
-h3
-{
-    margin-left: 20px;
+    color: #0065fc;
 }
 #marseille
 {
@@ -151,6 +148,7 @@ h3
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: -40px;
 }
 .logements
 {
@@ -159,6 +157,7 @@ h3
     flex-flow: row wrap;
     justify-content: space-around;
     margin-left: -30px;
+    margin-bottom: 15px;
 
 }
 
@@ -218,15 +217,26 @@ h3
     margin-left: 20px;
 }
 
+#marseille h3, #activites h3
+{
+    margin-left: 20px;
+}
 .graph
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+.graph p
+{
+    margin-top: 20px;
+}
+
 #plus-populaires figure a img
 {
     width: 110px;
     height: 110px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #plus-populaires figure figcaption
@@ -260,6 +270,7 @@ h3
     background-color: #F2F2F2;
     width: 400px;
     border-radius: 20px 20px 20px;
+    align-items: stretch;
 }
 
 #hebergement
@@ -270,7 +281,105 @@ h3
 
 #plus-populaires figure
 {
-    width: 320px ;
+    width: 300px ;
     background-color: white;
     display: flex;
+    box-shadow: 3px 3px 21px #b8b4b4;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 5px 5px;
+    margin-bottom: 40px;
+}
+
+#plus-populaires figure div
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.bloc1 img
+{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px 20px 0px 0px;
+}    
+
+.bloc img
+{
+    width: 250px;
+    height: 125px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#activites
+{
+    width: 200px;
+}
+
+#blocs
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.bloc1 figure
+{
+    box-shadow: 3px 3px 21px #b8b4b4;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.bloc1 figcaption
+{
+    font-weight: bold;
+    padding-top: 1em;
+    margin-left: 10px;
+}
+.bloc figure
+{
+    box-shadow: 3px 3px 21px #b8b4b4;
+    border-radius: 20px 20px 20px 20px; 
+    padding-bottom: 20px;
+    margin-bottom: 40px; 
+   
+}
+
+.bloc figcaption
+{
+    font-weight: bold;
+    padding-top: 1em;
+    margin-left: 10px;
+}
+
+footer
+{
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: flex-start;
+    margin-left: -20px;
+    
+}
+
+#apropos ul, #noshebergements ul, #assistance ul
+{
+    list-style-type: none;
+}
+
+#apropos ul li a, #noshebergements ul li a, #assistance ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+#apropos h3, #noshebergements h3, #assistance h3
+{
+    padding-left: 40px;
+}
+
+#apropos, #noshebergements, #assistance
+{
+    margin-right: 200px;
 }
