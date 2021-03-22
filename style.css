@@ -74,8 +74,10 @@ label
     padding: 15px 15px 15px;
     width: 210px;
     color: black;
+    border:3px #F2F2F2 solid;
     font-weight: bold;
     font-size: 1em;
+
 }
 
 .recherche
@@ -83,7 +85,6 @@ label
     padding: 15px 15px 15px;
     width: 100px;
     background-color: #0065fc;
-    border-color: #F2F2F2;
     color: #ffff;
     font-size: 0.8em;
     font-weight: bold;
@@ -115,7 +116,7 @@ label
     border: 2px #F2F2F2 solid;
     width: auto;
     padding-right: 10px;
-    border-radius: 30px 30px 30px 20px;
+    border-radius: 30px 30px 30px 30px;
    
 }
 
@@ -132,6 +133,8 @@ label
     padding: 15px 15px 15px;
     border-radius: 70%;
 }
+
+
 
 #recherche p i
 {
@@ -171,6 +174,16 @@ label
 
 }
 
+.logements figure a
+{
+    text-decoration: none;
+  
+}
+
+.inactive
+{
+    color: #F2F2F2;
+}
 .logements figure a img
 {
     width: 200px;
@@ -180,13 +193,15 @@ label
  
 .logements figure figcaption
 {
-    font-weight: bold;
+    font-weight: bold; 
+    color: black;  
 }
 
 .logements figure p
 {
     margin-top: 0em;
     font-size: 0.8em;
+    color:black;
 }
 
 .logements figure ul
@@ -197,18 +212,16 @@ label
     margin-top: 0em;   
 }
 
+
 .logements figure ul li i
 {
  
     font-size: 0.8em;
     display: flex;
-    margin-top: -0.5em;  
+    margin-top: -0.5em;
+   
 }
 
-.inactive
-{
-    color: #F2F2F2;
-}
 #marseille p a
 {
     text-decoration: none;
@@ -232,6 +245,7 @@ label
     margin-top: 20px;
 }
 
+
 #plus-populaires figure a img
 {
     width: 110px;
@@ -242,12 +256,14 @@ label
 #plus-populaires figure figcaption
 {
     font-weight: bold;
+    color: black;
 }
 
 #plus-populaires figure p
 {
     margin-top: 0em;
     font-size: 0.8em;
+    color: black;
 }
 
 #plus-populaires figure ul
@@ -283,11 +299,16 @@ label
 {
     width: 300px ;
     background-color: white;
-    display: flex;
     box-shadow: 3px 3px 21px #b8b4b4;
     border-radius: 20px 20px 20px 20px;
     padding: 5px 5px 5px;
     margin-bottom: 40px;
+}
+
+#plus-populaires figure a
+{
+    display: flex;
+    text-decoration: none;
 }
 
 #plus-populaires figure div
@@ -331,11 +352,18 @@ label
     padding-bottom: 20px;
 }
 
-.bloc1 figcaption
+.bloc1 figure a
 {
-    font-weight: bold;
+    text-decoration: none;
+}
+
+.bloc1 figure a figcaption
+{
+    font-weight: bold; 
+    color: black;  
     padding-top: 1em;
     margin-left: 10px;
+    
 }
 .bloc figure
 {
@@ -346,9 +374,15 @@ label
    
 }
 
+.bloc figure a 
+{
+    text-decoration: none;
+}
+
 .bloc figcaption
 {
     font-weight: bold;
+    color: black;
     padding-top: 1em;
     margin-left: 10px;
 }
