@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px)
+{
+#bloc-page
+{
+    font-family: 'Raleway', sans-serif;
+    width: auto;
+}
+
+header
+{
+    border: green 3px solid;
+    width: auto;
+    height: auto;
+    display: flex;
+
+}
+header nav ul
+{
+    border: red 3px solid;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+.hbgt
+{
+    border-top: none;
+}
+
+}
