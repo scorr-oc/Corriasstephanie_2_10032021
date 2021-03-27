@@ -1,7 +1,10 @@
+
 #bloc-page
 {
-    font-family: 'Raleway', sans-serif;
-    margin-left: 20px;
+    font-family: 'Raleway', 'sans-serif';
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header
@@ -74,7 +77,7 @@ label
     padding: 15px 15px 15px;
     width: 210px;
     color: black;
-    border:3px #F2F2F2 solid;
+    border:1px #F2F2F2 solid;
     font-weight: bold;
     font-size: 1em;
 
@@ -83,17 +86,19 @@ label
 .recherche
 {
     padding: 15px 15px 15px;
-    width: 100px;
+    width: 110px;
     background-color: #0065fc;
     color: #ffff;
     font-size: 0.8em;
     font-weight: bold;
     border-radius: 0px 15px 15px 0px;
+    border: none;
 }
 
 #filter
 {
     font-weight: bold;
+    width: 1200px;
     display: flex;
     justify-content: flex-start;
 }
@@ -115,7 +120,7 @@ label
     margin-right: 40px;
     border: 2px #F2F2F2 solid;
     width: auto;
-    padding-right: 10px;
+    padding-right: 20px;
     border-radius: 30px 30px 30px 30px;
    
 }
@@ -132,69 +137,93 @@ label
     color: #0065fc;
     padding: 15px 15px 15px;
     border-radius: 70%;
+    margin-right: 5px;
 }
 
 
 
 #recherche p i
 {
-    padding-right: 10px;
+    margin-right: 10px;
     color: #0065fc;
+    font-size: 0.7em;
+    border: 2px #F2F2F2 solid;
+    border-radius: 50%;
+    padding: 6px;
 }
+
+#container
+{
+    width: 1500px;
+}
+
+#marseille h3
+{
+    padding-top: 15px;
+}
+
 #marseille
 {
     background-color: #F2F2F2;
-    width: 800px;
-    padding-right: 15px;
+    width: 1300px;
+    height: 600px;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: -40px;
 }
 .logements
 {
-    width: 800px;
+    width: 1010px;
+    height: 600px;
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
-    margin-left: -30px;
-    margin-bottom: 15px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: stretch;
+   
 
 }
 
-.logements figure
-{
+.logements a{
+    text-decoration: none;
+    width: 250px;
+    height: 200px;
     margin-right: 5px;
+}
+
+.logements a figure
+{
+  
+    width: 250px;
+    height: 200px;
     background-color: white;
-    box-shadow: 3px 3px 21px #b8b4b4;
+    box-shadow: 3px 3px 10px #dad7d7;
     padding: 5px 5px 0px 5px;
     border-radius: 20px 20px 20px 20px;
-
+    margin:auto;
 }
 
-.logements figure a
-{
-    text-decoration: none;
-  
+i.fa-star{
+    color:#0065fc;
 }
 
-.inactive
+i.fa-inactive
 {
     color: #F2F2F2;
 }
-.logements figure a img
+.logements a figure img
 {
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
 }
  
 .logements figure figcaption
 {
     font-weight: bold; 
-    color: black;  
+    color: black;
+    margin-left: 10px; 
 }
 
 .logements figure p
@@ -202,24 +231,29 @@ label
     margin-top: 0em;
     font-size: 0.8em;
     color:black;
+    margin-left: 10px;
 }
 
 .logements figure ul
 {
     display: flex;
     list-style-type: none;
-    margin-left: -40px; 
-    margin-top: 0em;   
+    margin-top: 0em;
+    padding-left: 0px;
+    margin-left: 10px;   
 }
 
 
-.logements figure ul li i
+.logements figure ul li 
 {
  
     font-size: 0.8em;
     display: flex;
-    margin-top: -0.5em;
-   
+    margin-top: -0.5em;  
+}
+
+#marseille p{
+    margin-top: 0px;
 }
 
 #marseille p a
@@ -227,17 +261,19 @@ label
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 0px
 }
 
-#marseille h3, #activites h3
+#marseille h3
 {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .graph
 {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .graph p
@@ -246,95 +282,115 @@ label
 }
 
 
-#plus-populaires figure a img
+#plus-populaires a figure img
 {
     width: 110px;
-    height: 110px;
-    border-radius: 10px 0px 0px 10px;
+    height: 130px;
+    border-radius: 15px 0px 0px 15px;
 }
 
-#plus-populaires figure figcaption
+#plus-populaires a figure div figcaption
 {
     font-weight: bold;
     color: black;
 }
 
-#plus-populaires figure p
+#plus-populaires a figure div p
 {
     margin-top: 0em;
     font-size: 0.8em;
     color: black;
 }
 
-#plus-populaires figure ul
+#plus-populaires a figure div ul
 {
     display: flex;
     list-style-type: none;
-    margin-top: 0em;
+    margin-top: 60px;
     margin-left: -40px;
 }
 
-#plus-populaires figure ul li
+#plus-populaires a figure div ul li
 {
     font-size: 0.8em;
     display: flex;
-    margin-top: -0.5em;  
+    margin-top: -0.5em;
+    line-height: 2em;  
 }
 
 #populaire
 {
     background-color: #F2F2F2;
-    width: 400px;
+    width: 450px;
+    height: 620px;
+    margin-left: 50px;
     border-radius: 20px 20px 20px;
-    align-items: stretch;
+    display: flex;
+    flex-direction: column;
 }
 
 #hebergement
 {
     display: flex;
     justify-content: space-around;
+    width: 1500px;
+    height: 600px;
+    margin-top: 30px;
 }
 
-#plus-populaires figure
+#plus-populaires{
+    height: 450px;
+}
+
+#plus-populaires a figure
 {
-    width: 300px ;
+    width: 400px ;
+    height: 130px;
     background-color: white;
-    box-shadow: 3px 3px 21px #b8b4b4;
+    box-shadow: 3px 3px 10px #dad7d7;
     border-radius: 20px 20px 20px 20px;
     padding: 5px 5px 5px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    display: flex
+
 }
 
-#plus-populaires figure a
+#plus-populaires a
 {
+    width: 400px;
+    height: 140px;
     display: flex;
+    align-items: center;
     text-decoration: none;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
-#plus-populaires figure div
+#plus-populaires a figure div
 {
-    display: flex;
-    flex-direction: column;
+    width: 140px;
+    height: 130px; 
     margin-left: 10px;
 }
 
 .bloc1 img
 {
-    width: 250px;
-    height: 350px;
+    width: 330px;
+    height: 450px;
     border-radius: 20px 20px 0px 0px;
 }    
 
 .bloc img
 {
-    width: 250px;
+    width: 300px;
     height: 125px;
     border-radius: 20px 20px 0px 0px;
 }
 
 #activites
 {
-    width: 200px;
+    width: 1500px;
+    margin-top: 80px;
 }
 
 #blocs
@@ -344,20 +400,36 @@ label
     margin-left: -40px;
 }
 
-.bloc1 figure
+#pomegues{
+    height: 240px;
+}
+
+#frioul{
+    height: 120px;
+}
+
+#garde{
+    height: 150px;
+}
+
+#longchamp{
+    height: 210px;
+}
+
+.bloc1 a figure
 {
-    box-shadow: 3px 3px 21px #b8b4b4;
+    box-shadow: 3px 3px 10px #dad7d7;
     border-radius: 20px 20px 20px 20px;
     margin-right: 20px;
     padding-bottom: 20px;
 }
 
-.bloc1 figure a
+.bloc1 a
 {
     text-decoration: none;
 }
 
-.bloc1 figure a figcaption
+.bloc1 a figure figcaption
 {
     font-weight: bold; 
     color: black;  
@@ -365,21 +437,22 @@ label
     margin-left: 10px;
     
 }
-.bloc figure
+.bloc a figure
 {
-    box-shadow: 3px 3px 21px #b8b4b4;
+    box-shadow: 3px 3px 10px #dad7d7;
     border-radius: 20px 20px 20px 20px; 
     padding-bottom: 20px;
-    margin-bottom: 40px; 
+    margin-bottom: 30px;
+    margin-right: 20px; 
    
 }
 
-.bloc figure a 
+.bloc a 
 {
     text-decoration: none;
 }
 
-.bloc figcaption
+.bloc a figcaption
 {
     font-weight: bold;
     color: black;
@@ -389,16 +462,19 @@ label
 
 footer
 {
-    display: flex;
-    background-color: #F2F2F2;
-    justify-content: flex-start;
-    margin-left: -20px;
-    
+    background-color: #F2F2F2;     
 }
 
+#baspage{
+    display: flex;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #apropos ul, #noshebergements ul, #assistance ul
 {
     list-style-type: none;
+    padding-left: 0px; 
 }
 
 #apropos ul li a, #noshebergements ul li a, #assistance ul li a
@@ -406,11 +482,7 @@ footer
     text-decoration: none;
     color: black;
     font-size: 0.8em;
-}
-
-#apropos h3, #noshebergements h3, #assistance h3
-{
-    padding-left: 40px;
+    line-height: 2em;
 }
 
 #apropos, #noshebergements, #assistance
