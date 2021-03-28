@@ -2,31 +2,30 @@
 {
 #bloc-page
 {
-    font-family: 'Raleway', sans-serif;
+    width: auto;
+}
+#container{
     width: auto;
 }
 
-header
-{
-    border: green 3px solid;
+header{
     width: auto;
-    height: auto;
-    display: flex;
-
-}
-header nav ul
-{
-    border: red 3px solid;
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
-.hbgt
-{
-    border-top: none;
+
+header img{
+    
+    width: 30%;
 }
+#filter
+{
+    width: auto;
+    flex-direction: column;
+}
+#filter ul 
+{
+    width: auto;
+    
 
 }
