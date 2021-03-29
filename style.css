@@ -13,6 +13,12 @@ header
     justify-content: space-between;
 } 
 
+
+nav
+{
+    margin-left: 1010px;
+}
+
 nav ul 
 {
     display: flex;
@@ -31,7 +37,7 @@ nav ul li a
     padding-top: 10px;
 }
 
-nav ul li a .hbgt:hover
+header nav ul li a:hover
 {
     border-top: 2px solid #0065fc;
     
@@ -40,7 +46,6 @@ nav ul li a .hbgt:hover
 .hbgt
 {
     color: #0065fc;
-    border-top: 2px solid #0065fc;
 }
 
 .activ
@@ -50,6 +55,7 @@ nav ul li a .hbgt:hover
 
 .inscription
 {
+    text-decoration: none;
     color: #0065fc;
     font-weight: bold;
 }
