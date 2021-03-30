@@ -82,5 +82,35 @@ h3
     padding-right: 10px;
 }
 
+#recherche
+{
+    width: 100%;
+ 
+}
+
+form 
+{
+    width: 100%;
+}
+
+label 
+{
+    padding: 20px;
+}
+.recherche
+{
+    display: none;
+}
+
+.recherches
+{
+    display:initial;
+    color: white;
+    font-weight: bold;
+    background-color: #0065fc;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 }

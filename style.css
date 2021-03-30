@@ -101,6 +101,10 @@ label
     border: none;
 }
 
+.recherches
+{
+    display: none;
+}
 #filter
 {
     font-weight: bold;
@@ -468,6 +472,7 @@ i.fa-inactive
 
 footer
 {
+    width: 100%;
     background-color: #F2F2F2;     
 }
 
