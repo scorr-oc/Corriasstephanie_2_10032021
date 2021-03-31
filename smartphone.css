@@ -6,8 +6,6 @@
 }
 #container{
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 header
@@ -97,6 +95,11 @@ label
 {
     padding: 20px;
 }
+
+.local
+{
+    width: 180px;
+}
 .recherche
 {
     display: none;
@@ -110,7 +113,95 @@ label
     background-color: #0065fc;
     border: none;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
+.recherches i 
+{
+    font-size: 1.5em;
+}
+
+#filter
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#filter p 
+{
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+#filter ul 
+{
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+#filter ul li 
+{
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#hebergement > #marseille
+{
+    order: 2;
+}
+
+#hebergement > #populaire
+{
+    order: 1;
+}
+
+#hebergement
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+#marseille
+{
+    width: 100%;
+}
+
+#populaire
+{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 380px;
+    background-color: #f2f2f2;
+    border-radius: 0px;
+}
+
+#plus-populaires
+{
+    width: 100%;
+}
+
+#plus-populaires a 
+{
+    width: 100%;
+}
+
+#plus-populaires a figure 
+{
+    width: 1;
+    justify-content: center;
+}
+
+.logements
+{
+    flex-direction: column;
+}
+
+#activites
+{
+    width: 100%;
+}
 }
