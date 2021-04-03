@@ -15,8 +15,11 @@
     <body>
     <div id="bloc-page">
         <div id="container">
+
+            <!--en-tête de la page -->
             <header>
                     <img src="images/Reservia.svg" alt="logo" />
+                    <!-- Menu navigation-->
                     <nav>
                         <ul>
                             <li><a href="#hebergements" class="hbgt">Hébergements</a></li>
@@ -28,14 +31,17 @@
 
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <p id="titre">En plein centre-ville ou en pleine nature</p> 
-       
+            
+            <!-- formulaire de recherche et filtres-->
             <section id="recherche">
+                <!-- formulaire de la page-->
                 <form method="POST" action="donnees.php">
                     <label><i class="fas fa-map-marker-alt"></i></label>
                     <input type="text"  name="localisation" value="Marseille, France" class="local"/>
                     <input type="button" value="Rechercher" class="recherche"/>
                     <button class="recherches"><i class="fas fa-search"></i></button>   
                 </form>
+                <!-- liste de filtres-->
                 <div id="filter">
                     <p>Filtres</p>
                     <ul>
@@ -48,9 +54,11 @@
                 <p><i class="fas fa-info"></i>Plus de 500 logements disponibles dans cette ville</p>
             </section>
 
+            <!-- section hébergements + aside-->
             <section id="hebergement">
                     <div id="marseille">
                         <h3>Hébergements à Marseille</h3>
+                            <!--bloc hébergements à Marseille-->
                             <div class="logements">
                                 <a href="page2.html">
                                     <figure> 
@@ -137,17 +145,19 @@
                                     </figure>
                                 </a>    
                             </div>
-                            <p><a href="">Afficher plus</a></p>               
-                        
+                        <p><a href="">Afficher plus</a></p>                                     
                     </div>
 
+                    <!--Bloc les plus populaires-->
                     <aside id="populaire">
+                        <!--titre du bloc-->
                         <div class="graph">
                             <h3>Les plus populaires</h3>
                             <p>
                                 <i class="fas fa-chart-line"></i>
                             </p>
                         </div>
+                        <!--corps du bloc-->
                         <div id="plus-populaires">
                             <a href="page8.html">
                                 <figure>
@@ -201,6 +211,7 @@
                     </aside>
             </section>
 
+            <!--section activités-->
             <section id="activites">        
                     <h3>Activités à Marseille</h3>
                     <div id="blocs">
@@ -252,6 +263,7 @@
             </section>
         </div>
     </div> 
+        <!--pied de page-->
         <footer>
             <div id="baspage">
                 <section id="apropos">
