@@ -1,4 +1,4 @@
-
+/*mise en forme de la page*/
 body
 {
     font-family: 'Raleway', 'sans-serif';
@@ -12,13 +12,14 @@ body
     margin-right: auto;
 }
 
+/* mise en forme de l'en-tête de la page*/
 header
 {
     display: flex;
     justify-content: space-between;
 } 
 
-
+/* mise en forme du menu navigation */
 nav
 {
     margin-left: 1010px;
@@ -71,6 +72,8 @@ header nav ul li a:hover
     font-size: 0.9em;
 }
 
+/* mise en page du formulaire */
+
 form
 {
     display: flex;
@@ -111,10 +114,7 @@ label
     display: none;
 }
 
-#recheche p span 
-{
-    text-align: justify;
-}
+/* mise en forme des filtres */
 #filter
 {
     font-weight: bold;
@@ -149,7 +149,7 @@ label
     background-color: #F2F2F2;
 }
 
-
+/* mise en forme des icônes */
 #filter ul li i   
 {
     background-color: #DEEBFF;
@@ -182,6 +182,9 @@ figcaption
 {
     padding-bottom: 5px;
 }
+
+/* mise en forme du bloc hébergements à Marseille*/
+
 #marseille h3
 {
     padding-top: 15px;
@@ -210,16 +213,17 @@ figcaption
 
 }
 
-.logements a{
+.logements a
+{
     text-decoration: none;
     width: 250px;
     height: 200px;
     margin-right: 5px;
 }
 
+/* mise en forme des cartes*/
 .logements a figure
-{
-  
+{ 
     width: 250px;
     height: 200px;
     background-color: white;
@@ -229,7 +233,8 @@ figcaption
     margin:auto;
 }
 
-i.fa-star{
+i.fa-star
+{
     color:#0065fc;
 }
 
@@ -268,7 +273,6 @@ i.fa-inactive
     margin-left: 10px;   
 }
 
-
 .logements figure ul li 
 {
  
@@ -295,6 +299,10 @@ i.fa-inactive
 {
     margin-left: 40px;
 }
+
+/* mise en forme du bloc les plus populaires*/
+
+    /*mise en forme du titre*/
 .graph
 {
     display: flex;
@@ -307,7 +315,7 @@ i.fa-inactive
     margin-top: 20px;
 }
 
-
+    /*mise en forme du corps du bloc */
 #plus-populaires a figure img
 {
     width: 110px;
@@ -400,6 +408,8 @@ i.fa-inactive
     margin-left: 10px;
 }
 
+/*mise en forme du bloc activités*/
+
 .bloc1 img
 {
     width: 330px;
@@ -486,6 +496,8 @@ i.fa-inactive
     padding-top: 1em;
     margin-left: 10px;
 }
+
+/*mise ne page du footer*/
 
 footer
 {
