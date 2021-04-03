@@ -1,7 +1,12 @@
 
-#bloc-page
+body
 {
     font-family: 'Raleway', 'sans-serif';
+    margin: 0px;
+}
+
+#bloc-page
+{
     width: 1500px;
     margin-left: auto;
     margin-right: auto;
@@ -105,6 +110,11 @@ label
 {
     display: none;
 }
+
+#recheche p span 
+{
+    text-align: justify;
+}
 #filter
 {
     font-weight: bold;
@@ -166,6 +176,12 @@ label
     width: 1500px;
 }
 
+/* espacement texte images carte*/
+
+figcaption 
+{
+    padding-bottom: 5px;
+}
 #marseille h3
 {
     padding-top: 15px;
@@ -261,7 +277,8 @@ i.fa-inactive
     margin-top: -0.5em;  
 }
 
-#marseille p{
+#marseille p
+{
     margin-top: 0px;
 }
 
@@ -347,7 +364,8 @@ i.fa-inactive
     margin-top: 30px;
 }
 
-#plus-populaires{
+#plus-populaires
+{
     height: 450px;
 }
 
