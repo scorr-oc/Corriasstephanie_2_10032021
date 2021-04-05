@@ -6,6 +6,7 @@
 }
 #container{
     width: 100%;
+    margin-left: 0px;
 }
 
 /* Mise en forme du header */
@@ -156,10 +157,11 @@ label
     flex-flow: column wrap;
 }
 
-#filter p 
+#info p 
 {
     margin-bottom: 0px;
     padding-bottom: 5px;
+    width: 80%;
 }
 
 #filter ul 
