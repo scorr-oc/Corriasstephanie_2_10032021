@@ -159,16 +159,21 @@ label
     margin-right: 5px;
 }
 
-
-
-#recherche p i
+#info 
 {
+    display: flex;
+}
+
+#info i
+{
+    height: 20px;
     margin-right: 10px;
+    margin-top: 10px;
     color: #0065fc;
     font-size: 0.7em;
     border: 2px #F2F2F2 solid;
     border-radius: 50%;
-    padding: 6px;
+    padding: 7px 7px 0px 7px;
 }
 
 #container

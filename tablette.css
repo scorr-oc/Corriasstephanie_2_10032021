@@ -1,0 +1,250 @@
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+#bloc-page
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container
+{
+    width: 99%;
+}
+    
+/* Mise en forme du header */
+    
+header
+{
+    width: 100%;
+}
+
+header img 
+{
+    margin-left: 15px;
+}
+
+header p 
+{
+    margin-left: -10px;
+}
+
+/* mise en forme du menu navigation */
+nav
+{
+    margin-left: 290px;
+}
+
+nav ul li 
+{
+    margin-right: 25px;
+}
+
+.inscription 
+{
+    margin-right: 20px;
+}
+
+h3, p, form, #info 
+{
+    margin-left: 15px;
+}
+
+/*mise en page des filtres*/
+
+#filter 
+{
+    width: 100%;
+}
+
+#filter ul 
+{
+    padding-left: 0px;
+
+}
+
+#filter ul li 
+{
+    margin-right: 10px;
+    font-size: small;   
+}
+
+/* mise en page du bloc hébergement*/
+#hebergement 
+{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    margin-top: 0px;
+}
+
+/*mise en page du bloc marseille*/
+
+#marseille 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+
+#marseille h3 
+{
+    margin-left: 15px;
+}
+
+.logements 
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logements a 
+{
+    width: 45%;
+    margin-bottom: 15px;
+}
+ .logements a figure 
+ {
+     width: auto;
+ }
+
+ .logements a figure img 
+ {
+     width: 100%;
+ }
+
+ #marseille p a 
+ {
+     margin-left: 15px;
+ }
+
+ /* mise en place du bloc populaire*/
+
+ #populaire 
+ {
+     width: 100%;
+     height: auto;
+     background-color: white;
+     margin-left: 15px;
+ }
+
+ .graph 
+ {
+     width: 100%;
+     justify-content: normal;
+
+ }
+
+ .graph p
+ {
+     margin-left: 450px;
+ }
+#plus-populaires 
+{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     
+}
+#plus-populaires a
+{ 
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#plus-populaires a figure
+{
+    width: 100%;
+    margin: 0px;
+    margin-right: 45px;
+}
+
+#plus-populaires a figure img 
+{
+    width: 40%;
+}
+
+/*mise en page du bloc activités*/
+#activites 
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#activites h3 
+{
+    margin-left: 15px;
+}
+
+#blocs 
+{
+   width: 100%;
+   margin-left: 0px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.bloc1 
+{
+    width: 45%;
+}
+
+.bloc1 a figure img 
+{
+    width: 100%;
+}
+
+.bloc1 a figure 
+{
+    margin-left: 0px;
+}
+
+.bloc
+{
+    width: 45%;
+
+}
+
+.bloc a figure img 
+{
+    width: 100%;
+}
+.bloc a figure 
+{
+    margin-left: 0px;
+}
+
+/*mise en page du footer*/
+#baspage 
+{
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+#apropos, #noshebergements, #assistance
+
+{
+    margin-left: 15px;
+    margin-right: 30px;
+
+}
+#apropos ul 
+{
+    margin-left: 15px;
+ 
+}
+
+#apropos, #noshebergements, #assistance
+{
+    width: 30%;
+}
+
+#noshebergements h3, #assistance h3 
+{
+    margin-left: 0px;
+}
+
+
+}
