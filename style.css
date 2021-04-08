@@ -2,27 +2,25 @@
 body
 {
     font-family: 'Raleway', 'sans-serif';
-    margin: 0px;
+    margin: 0;
 }
 
-#bloc-page
+#container
 {
-    width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    margin: auto;
 }
-
 /* mise en forme de l'en-tête de la page*/
 header
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 } 
 
 /* mise en forme du menu navigation */
 nav
 {
-    margin-left: 1010px;
+    margin-left: auto;
 }
 
 nav ul 
@@ -34,7 +32,7 @@ nav ul
 
 nav ul li
 {
-    margin: 0px 50px 0px 0px;
+    margin: 0 50px 0 0;
 }
 
 nav ul li a
@@ -83,7 +81,7 @@ label
 {
     background-color: #F2F2F2;
     padding: 15px 15px 15px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0 10px;
 }
 
 .local
@@ -105,7 +103,7 @@ label
     color: #ffff;
     font-size: 0.8em;
     font-weight: bold;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0 15px 15px 0;
     border: none;
 }
 
@@ -173,12 +171,7 @@ label
     font-size: 0.7em;
     border: 2px #F2F2F2 solid;
     border-radius: 50%;
-    padding: 7px 7px 0px 7px;
-}
-
-#container
-{
-    width: 1500px;
+    padding: 7px 7px 0 7px;
 }
 
 /* espacement texte images carte*/
@@ -193,13 +186,13 @@ figcaption
 #marseille h3
 {
     padding-top: 15px;
+    margin-left: 30px;
 }
 
 #marseille
 {
     background-color: #F2F2F2;
-    width: 1300px;
-    height: 600px;
+    width: 68%;
     border-radius: 20px 20px 20px 20px;
     padding-bottom: 20px;
     display: flex;
@@ -207,10 +200,8 @@ figcaption
 }
 .logements
 {
-    width: 1010px;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
+        display: flex;
+    justify-content: center;
     flex-direction:row;
     flex-wrap: wrap;
     align-content: stretch;
@@ -220,22 +211,20 @@ figcaption
 
 .logements a
 {
+    width: 30%;
     text-decoration: none;
-    width: 250px;
-    height: 200px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 /* mise en forme des cartes*/
 .logements a figure
 { 
-    width: 250px;
-    height: 200px;
     background-color: white;
     box-shadow: 3px 3px 10px #dad7d7;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 0.5px 5px;
     border-radius: 20px 20px 20px 20px;
     margin:auto;
+    margin-bottom: 15px;
 }
 
 i.fa-star
@@ -249,9 +238,10 @@ i.fa-inactive
 }
 .logements a figure img
 {
-    width: 250px;
+    width: 100%;
     height: 120px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
  
 .logements figure figcaption
@@ -263,7 +253,7 @@ i.fa-inactive
 
 .logements figure p
 {
-    margin-top: 0em;
+    margin-top: 0;
     font-size: 0.8em;
     color:black;
     margin-left: 10px;
@@ -273,8 +263,8 @@ i.fa-inactive
 {
     display: flex;
     list-style-type: none;
-    margin-top: 0em;
-    padding-left: 0px;
+    margin-top: 0;
+    padding-left: 0;
     margin-left: 10px;   
 }
 
@@ -286,23 +276,13 @@ i.fa-inactive
     margin-top: -0.5em;  
 }
 
-#marseille p
-{
-    margin-top: 0px;
-}
-
 #marseille p a
 {
     text-decoration: none;
     color: black;
     font-weight: bold;
     margin-left: 40px;
-    margin-top: 0px
-}
-
-#marseille h3
-{
-    margin-left: 40px;
+    margin-top: 0;
 }
 
 /* mise en forme du bloc les plus populaires*/
@@ -323,9 +303,9 @@ i.fa-inactive
     /*mise en forme du corps du bloc */
 #plus-populaires a figure img
 {
-    width: 110px;
-    height: 130px;
-    border-radius: 15px 0px 0px 15px;
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
 }
 
 #plus-populaires a figure div figcaption
@@ -336,7 +316,7 @@ i.fa-inactive
 
 #plus-populaires a figure div p
 {
-    margin-top: 0em;
+    margin-top: 0;
     font-size: 0.8em;
     color: black;
 }
@@ -345,7 +325,7 @@ i.fa-inactive
 {
     display: flex;
     list-style-type: none;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: -40px;
 }
 
@@ -360,50 +340,38 @@ i.fa-inactive
 #populaire
 {
     background-color: #F2F2F2;
-    width: 450px;
-    height: 620px;
-    margin-left: 50px;
+    width: 30%;
     border-radius: 20px 20px 20px;
     display: flex;
     flex-direction: column;
 }
 
-#hebergement
+#hebergements
 {
     display: flex;
-    justify-content: space-around;
-    width: 1500px;
-    height: 600px;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 30px;
-}
-
-#plus-populaires
-{
-    height: 450px;
 }
 
 #plus-populaires a figure
 {
-    width: 400px ;
-    height: 130px;
+    width: 100%;
+    height: 125px;
     background-color: white;
     box-shadow: 3px 3px 10px #dad7d7;
     border-radius: 20px 20px 20px 20px;
     padding: 5px 5px 5px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     display: flex
 
 }
 
 #plus-populaires a
 {
-    width: 400px;
-    height: 140px;
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 40px;
-    margin-top: 10px;
 }
 
 #plus-populaires a figure div
@@ -415,24 +383,27 @@ i.fa-inactive
 
 /*mise en forme du bloc activités*/
 
+
 .bloc1 img
 {
-    width: 330px;
+    width: 100%;
     height: 450px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }    
 
 .bloc img
 {
-    width: 300px;
+    width: 100%;
     height: 125px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #activites
 {
-    width: 1500px;
-    margin-top: 80px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 #blocs
@@ -462,10 +433,13 @@ i.fa-inactive
 {
     box-shadow: 3px 3px 10px #dad7d7;
     border-radius: 20px 20px 20px 20px;
-    margin-right: 20px;
+    margin-right: 0;
     padding-bottom: 20px;
 }
-
+ .bloc, .bloc1  
+ {
+     width: 25%;
+ }
 .bloc1 a
 {
     text-decoration: none;
@@ -485,7 +459,7 @@ i.fa-inactive
     border-radius: 20px 20px 20px 20px; 
     padding-bottom: 20px;
     margin-bottom: 30px;
-    margin-right: 20px; 
+    margin-right: 0;
    
 }
 
@@ -512,14 +486,14 @@ footer
 
 #baspage{
     display: flex;
-    width: 1500px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 #apropos ul, #noshebergements ul, #assistance ul
 {
     list-style-type: none;
-    padding-left: 0px; 
+    padding-left: 0; 
 }
 
 #apropos ul li a, #noshebergements ul li a, #assistance ul li a

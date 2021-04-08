@@ -1,12 +1,9 @@
 @media screen and (max-width: 767px)
 {
-#bloc-page
-{
-    width: 100%;
-}
+
 #container{
     width: 100%;
-    margin-left: 0px;
+    margin-left: auto;
 }
 
 /* Mise en forme du header */
@@ -25,7 +22,7 @@ header > nav
     display: flex;
     justify-content: space-between;
     order: 3;
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 20px;
 
 }
@@ -33,14 +30,14 @@ header > nav
 header nav ul 
 {
     width: 100%;
-    padding-left: 0px;
+    padding-left: 0;
 
 }
 
 header ul li
 {
     width: 50%;
-    margin: 0px;
+    margin: 0;
     padding-bottom: 30px;
     text-align: center;
     border-bottom: #f2f2f2 3px solid;
@@ -61,7 +58,7 @@ header nav ul li a
 {
     width: 50%;
     padding-bottom: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 header > img
@@ -74,10 +71,9 @@ header > img
 
 header > p
 {
-    width: 30%;
     order: 2;
     margin-top: 20px;
-    justify-content: flex-end;
+    margin-left: auto;
 }
 
 header p a 
@@ -101,7 +97,6 @@ h3
 
 #recherche
 {
-    width: 100%;
     margin-left: 15px;
  
 }
@@ -128,7 +123,7 @@ label
 
 .local
 {
-    padding-right: 0px;
+    padding-right: 0;
 }
 
 /* insertion de la loupe */
@@ -159,7 +154,7 @@ label
 
 #info p 
 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: 5px;
     width: 80%;
 }
@@ -168,14 +163,14 @@ label
 {
     width: 100%;
     flex-wrap: wrap;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 #filter ul li 
 {
     padding-right: 10px;
     margin-right: 20px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-bottom: 20px;
 }
 
@@ -187,17 +182,17 @@ figcaption
 }
 /* Réorganisation du bloc hebergement */
 
-#hebergement > #marseille
+#hebergements > #marseille
 {
     order: 2;
 }
 
-#hebergement > #populaire
+#hebergements > #populaire
 {
     order: 1;
 }
 
-#hebergement
+#hebergements
 {
     width: 100%;
     height: auto;
@@ -210,9 +205,9 @@ figcaption
 #populaire
 {
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
     background-color: #f2f2f2;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 #plus-populaires
@@ -309,7 +304,7 @@ figcaption
 {
     width: 100%;
     height: auto;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .logements a figure 
@@ -343,9 +338,13 @@ figcaption
 {
     width: 100%;
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
+.bloc, .bloc1 
+{
+    width: 100%;
+}
 .bloc1 a figure 
 {
     width: 90%;
@@ -408,12 +407,12 @@ figcaption
 #apropos, #noshebergements, #assistance
 {
     margin-left: 15px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #apropos h3, #noshebergements h3, #assistance h3 
 {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #assistance 
