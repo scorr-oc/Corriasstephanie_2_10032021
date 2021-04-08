@@ -1,11 +1,6 @@
-@media screen and (min-width: 768px) and (max-width: 1023px)
+@media screen and (min-width: 768px) and (max-width: 1399px)
 {
-#bloc-page
-{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #container
 {
     width: 99%;
@@ -23,10 +18,6 @@ header img
     margin-left: 15px;
 }
 
-header p 
-{
-    margin-left: -10px;
-}
 
 /* mise en forme du menu navigation */
 nav
@@ -58,7 +49,7 @@ h3, p, form, #info
 
 #filter ul 
 {
-    padding-left: 0px;
+    padding-left: 0;
 
 }
 
@@ -69,12 +60,12 @@ h3, p, form, #info
 }
 
 /* mise en page du bloc hébergement*/
-#hebergement 
+#hebergements 
 {
     width: 100%;
     flex-direction: column;
     height: auto;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 /*mise en page du bloc marseille*/
@@ -83,7 +74,7 @@ h3, p, form, #info
 {
     width: 100%;
     height: auto;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 #marseille h3 
@@ -122,7 +113,7 @@ h3, p, form, #info
 
  #populaire 
  {
-     width: 100%;
+     width: 98%;
      height: auto;
      background-color: white;
      margin-left: 15px;
@@ -156,7 +147,7 @@ h3, p, form, #info
 #plus-populaires a figure
 {
     width: 100%;
-    margin: 0px;
+    margin: 0;
     margin-right: 45px;
 }
 
@@ -180,7 +171,7 @@ h3, p, form, #info
 #blocs 
 {
    width: 100%;
-   margin-left: 0px;
+   margin-left: 0;
    justify-content: space-around;
    flex-wrap: wrap;
 }
@@ -197,7 +188,7 @@ h3, p, form, #info
 
 .bloc1 a figure 
 {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .bloc
@@ -212,7 +203,7 @@ h3, p, form, #info
 }
 .bloc a figure 
 {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 /*mise en page du footer*/
@@ -243,7 +234,7 @@ h3, p, form, #info
 
 #noshebergements h3, #assistance h3 
 {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 
