@@ -220,12 +220,6 @@ figcaption
     width: 100%;
 }
 
-#plus-populaires a figure 
-{
-    width: 100%;
-    justify-content: center;
-}
-
 .logements
 {
     width: auto;
@@ -260,7 +254,6 @@ figcaption
 #plus-populaires a figure img
 {
     width: 40%;
-    margin-left: -50px;
 }
 
 #plus-populaires a figure
@@ -275,6 +268,11 @@ figcaption
 #plus-populaires
 {
     height: auto;
+}
+
+#plus-populaires a figure div 
+{
+    width: auto;
 }
 #plus-populaires a figure div ul
 {
