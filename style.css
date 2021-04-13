@@ -312,7 +312,7 @@ i.fa-inactive
     object-fit: cover;
 }
 
-#plus-populaires a figure div figcaption
+#plus-populaires a figure div h5
 {
     font-weight: bold;
     color: black;
