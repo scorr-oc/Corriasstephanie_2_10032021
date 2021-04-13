@@ -217,11 +217,10 @@ figcaption
 }
 
 /* mise en forme des cartes*/
-.logements a figure
+.logements a
 { 
     background-color: white;
     box-shadow: 3px 3px 10px #dad7d7;
-    padding: 5px 5px 0.5px 5px;
     border-radius: 20px 20px 20px 20px;
     margin:auto;
     margin-bottom: 15px;
@@ -236,6 +235,11 @@ i.fa-inactive
 {
     color: #F2F2F2;
 }
+
+.logement figure {
+    padding: 5px;
+}
+
 .logements a figure img
 {
     width: 100%;
@@ -251,7 +255,7 @@ i.fa-inactive
     margin-left: 10px; 
 }
 
-.logements figure p
+.logements p
 {
     margin-top: 0;
     font-size: 0.8em;
@@ -259,7 +263,7 @@ i.fa-inactive
     margin-left: 10px;
 }
 
-.logements figure ul
+.logements ul
 {
     display: flex;
     list-style-type: none;
@@ -268,7 +272,7 @@ i.fa-inactive
     margin-left: 10px;   
 }
 
-.logements figure ul li 
+.logements ul li 
 {
  
     font-size: 0.8em;
