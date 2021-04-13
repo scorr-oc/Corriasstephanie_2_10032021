@@ -155,6 +155,9 @@ h3, p, form, #info
 {
     width: 40%;
 }
+#plus-populaires a figure p
+{
+    margin-left:0;
 
 /*mise en page du bloc activités*/
 #activites 
